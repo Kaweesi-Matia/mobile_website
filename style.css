@@ -15,7 +15,7 @@ h1 {
   margin-left: 20px;
   color: #172b4d;
   font-style: normal;
-  font-weight: 900px;
+  font-weight: 900;
   line-height: 40px;
   max-width: 300px;
 }
@@ -76,9 +76,9 @@ header {
 }
 
 .wrapper-1 {
-  height: 80px;
+  height: 40px;
   background-color: white;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   border: 1px solid white;
   padding-left: 20px;
   padding-right: 20px;
