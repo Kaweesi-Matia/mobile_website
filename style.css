@@ -76,8 +76,6 @@ header {
 }
 
 .wrapper-1 {
-  /* position: relative;
-  margin: auto; */
   height: 80px;
   background-color: white;
   margin-bottom: 100px;
@@ -86,10 +84,9 @@ header {
   padding-right: 20px;
   max-width: 400px;
   padding-top: 40px;
-
 }
-#menu{
+
+#menu {
   width: 35px;
   height: 30px;
-  
 }
