@@ -1,7 +1,8 @@
 .wrapper {
-  background-color: white;
+  background-color: #f7f7f9;
   max-width: 360px;
   margin: auto;
+  padding-bottom: 150px;
 }
 
 body {
@@ -191,16 +192,6 @@ header {
   right: 15px;
 }
 
-@keyframes design {
-  from {
-    color: rebeccapurple;
-  }
-
-  to {
-    color: green;
-  }
-}
-
 #connect1 {
   padding-left: 2px;
   text-decoration: none;
@@ -276,10 +267,6 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
 }
 
 .hidden2 button {
@@ -293,10 +280,6 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
 }
 
 .hidden4 button {
@@ -310,10 +293,6 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
 }
 
 .hidden1 button {
@@ -327,22 +306,6 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
-}
-
-.contact-form button {
-  height: 50px;
-  border-radius: 10px;
-  border-color: #cfd8dc;
-  border-style: none;
-  width: 40%;
-  font-size: 17px;
-  background-color: white;
-  color: #6070ff;
-}
-
-.contact-form button:hover {
-  background-color: #6070ff;
-  color: white;
 }
 
 .hidden button:hover {
@@ -407,18 +370,18 @@ button:hover {
 
 .about {
   position: absolute;
+  box-sizing: content-box;
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(250, 253, 255);
   padding-top: 6em;
   padding-left: 37px;
   padding-right: 2px;
-  min-width: 358px;
-  left: -11px;
-  top: -52px;
+  min-width: 208px;
   border-top-right-radius: 50px;
   background-color: white;
   padding-bottom: 150px;
+  top: 70px;
+  z-index: 1;
 }
 
 .about p {
@@ -443,13 +406,6 @@ button:hover {
   margin-top: 1px;
 }
 
-.languages > ul {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0%;
-  margin-left: 0%;
-}
-
 .languages li {
   list-style: none;
   position: relative;
@@ -469,17 +425,27 @@ button:hover {
 #fram {
   position: absolute;
   left: 75%;
-  top: 790px;
+  top: 810px;
 }
 
 #skill {
   position: absolute;
   left: 75%;
-  top: 860px;
+  top: 880px;
 }
 
 .frame-skill a {
   text-decoration: none;
+}
+
+.languages li a {
+  width: 10%;
+  padding: 0;
+  margin: 0;
+}
+
+.languages li a img {
+  width: 100%;
 }
 
 #profiler1 {
@@ -525,84 +491,14 @@ button:hover {
   color: black;
 }
 
-.contact-form {
-  position: absolute;
-  bottom: -1640px;
-  min-width: 338px;
-  border: 1px solid #6070ff;
-  margin: auto;
-  padding-left: 30px;
-  border-top-left-radius: 3.5em;
-  display: flex;
-  font-family: sans-serif;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: stretch;
-  padding-right: 30px;
-  background-color: #6070ff;
-  background-image: url(images/bg1.png);
-  background-repeat: no-repeat;
-  background-size: 440px 670px;
-  padding-bottom: 1px;
-  left: -11px;
+#story {
+  position: relative;
+  right: 15px;
+  bottom: 27px;
 }
 
-.contact-form h2 {
-  justify-self: center;
-  font-size: 37px;
-  margin-bottom: 0%;
-  padding-bottom: 10px;
-  padding-top: 2em;
-  color: white;
-  align-self: center;
-  font-weight: 700;
-}
-
-.contact-form p {
-  justify-self: center;
-  font-size: 16px;
-  text-align: center;
-  color: #ebebff;
-  padding-bottom: 15px;
-}
-
-.contact-form input {
-  height: 50px;
-  border-radius: 10px;
-  border-color: #cfd8dc;
-  border-style: none;
-}
-
-input::placeholder {
-  color: #172b4d;
-  padding-left: 20px;
-  font-size: large;
-}
-
-::placeholder {
-  color: #b3bac5;
-  font-size: 20px;
-  padding-left: 20px;
-}
-
-textarea {
-  border-radius: 10px;
-  border-color: #cfd8dc;
-  border-style: none;
-}
-
-#getintouch {
-  width: 170px;
-  color: #6070ff;
-  font-size: large;
-}
-
-#mark {
-  background-color: #0d151e;
-  height: 6px;
-  margin-top: 2em;
-  width: 150px;
-  border-radius: 5px;
-  justify-self: center;
-  align-self: center;
+#snap1 {
+  position: relative;
+  right: 15px;
+  bottom: 28px;
 }
