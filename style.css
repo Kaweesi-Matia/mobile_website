@@ -172,10 +172,6 @@ header {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
 }
 
 .wrapper2 {
@@ -251,11 +247,6 @@ header {
   top: 1px;
 }
 
-button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
 .hidden button {
   width: 133px;
   height: 40px;
@@ -306,32 +297,6 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
-}
-
-.hidden button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.hidden1 button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.hidden2 button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.hidden3 button:hover {
-  background-color: #6070ff;
-  color: white;
-  border-radius: 100px;
-}
-
-.hidden4 button:hover {
-  background-color: #6070ff;
-  color: white;
 }
 
 #stories-header {
@@ -501,4 +466,14 @@ button:hover {
   position: relative;
   right: 15px;
   bottom: 28px;
+}
+
+.content-list1 {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  max-width: 40%;
+  position: relative;
+  right: 36px;
+  padding-right: 10px;
 }
