@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile_website</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -230,6 +234,52 @@
             </li>
           </ul>
         </section>
+        
+        <form
+        action="https://formspree.io/f/mjvzkgwd"
+        method="post"
+        class="contact-form"
+        autocomplete="off"
+      >
+          <h2>Contact Me</h2>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding.I'd
+            love to help with it.
+          </p>
+          <input
+            name="Name"
+            type="text"
+            placeholder="Kaweesi"
+            required
+            maxlength="30"
+          />
+          <br />
+          <input
+            name="email"
+            type="email"
+            id="email"
+            placeholder="matiakaweesi@gmail.com"
+            required
+          />
+          <br />
+          <textarea
+            name="Message"
+            class="textarea"
+            cols="30"
+            rows="10"
+            placeholder="write your message here"
+            maxlength="500"
+          >
+          </textarea>
+          <br />
+          <button type="submit">Get in touch</button>
+          <br />
+          <div id="mark"></div>
+          
+          <br />
+        </form>
+         
       </div>
     </div>
   </body>
