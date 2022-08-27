@@ -40,7 +40,7 @@ This project is about creating a mobile view of my personal portifolio
 
 Contributions,code reviews and feature requests are all welcome
 
-### Show your support
+### Show your support to the project
 
 Give a star if you liked this project
 
