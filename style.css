@@ -470,10 +470,6 @@ textarea {
     background-size: contain;
   }
 
-  h1 {
-    margin-bottom: 10px;
-  }
-
   .content-list,
   .connect,
   .desc,
@@ -629,5 +625,10 @@ textarea {
 
   .facebook {
     display: none;
+  }
+
+  footer {
+    position: relative;
+    top: 200px;
   }
 }
