@@ -7,6 +7,8 @@ This project is about creating a mobile view of my personal portifolio
 
 -HTML
 -CSS
+##  link to my project
+ https://kaweesi-matia.github.io/mobile_website/
 
 ## setup to access the project
 
